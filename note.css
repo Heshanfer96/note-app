@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image-bike-repair-service-b.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    /* border-radius: 10px; */
+}
+
+table td span{
+    display: none;
+}
+
+button:hover{
+    background-color: whitesmoke  !important;
+}
+
+nav{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    border:2px black solid ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav p{
+    margin: auto 50px;
+    padding: 10px 5px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 50px;
+}
+
+nav input{
+    text-align: left;
+    margin: auto 50px;
+    padding: 10px 5px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+}
+#body{
+    width: 600px;
+    border: 5px black solid;
+    margin: 20px auto;
+    background-color:whitesmoke;
+}
+
+.body-down{
+    display: flex;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+form div{
+    width: 250px;
+    height: 350px;
+    margin: 20px center;
+    border: 2px black solid;
+    background-color: rgb(102, 102, 255);
+    padding: auto;
+}
+
+form div h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form div input{
+    margin: 10px 0px;
+    width: 100%;
+    height: 40px;
+}
+
+form div textarea{
+    margin: 10px 0px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    
+}
+
+#save{
+    background-color: green;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+}
+
+#reset{
+    background-color: red;
+    width: 100%;
+    height: 30px;
+}
+
+table{
+    margin: 30px 10px;
+    background-color: cornflowerblue;
+    border: 2px black solid;
+}
+
+table th{
+    font-size: x-large;
+    text-transform: uppercase;
+    padding: 13px;
+    border: 2px black solid;
+    background-color: grey;
+}
+
+table tr td{
+    max-height: 10px;
+    font-size: large;
+    border: 2px black solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#delB{
+    background-color: red;
+    width: 100%;
+}
+
+#viewB{
+    background-color:green;
+    width: 100%;
+}
